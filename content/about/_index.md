@@ -16,7 +16,7 @@ layout: "about"
 
 ### 📫 联系方式
 
-- **Email**: 1917980791@qq.com
+- **Email**: 3058314200@qq.com
 
 ### 💭 座右铭
 
