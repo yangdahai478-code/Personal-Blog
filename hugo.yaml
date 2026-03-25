@@ -1,0 +1,110 @@
+baseURL: https://yangge-dev.github.io/Personal-Blog/
+languageCode: zh-cn
+title: "羊哥的博客"
+theme: PaperMod
+
+taxonomies:
+  category: categories
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+  section:
+    - HTML
+  taxonomy:
+    - HTML
+  term:
+    - HTML
+
+params:
+  env: production
+  author: "羊哥"
+  description: "记录技术、生活与思考"
+
+  # Profile 模式 - 极简设计
+  profileMode:
+    enabled: true
+    title: "Hello World 🌍"
+    subtitle: ""
+    imageUrl: ""
+    imageTitle: ""
+    imageWidth: 0
+    imageHeight: 0
+    buttons: []
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/"
+    - name: email
+      url: "mailto:1917980791@qq.com"
+    - name: rss
+      url: "/index.xml"
+
+  # 文章展示
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+
+  # 首页文章列表
+  mainSections:
+    - posts
+
+  # 主题色
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+
+menu:
+  main:
+    - name: 首页
+      url: /
+      weight: 10
+      identifier: home
+    - name: 每日新闻
+      url: /daily/
+      weight: 15
+      identifier: daily
+    - name: 博客
+      url: /posts/
+      weight: 20
+      identifier: posts
+    - name: 技术
+      url: /categories/技术/
+      weight: 21
+      parent: posts
+    - name: 生活
+      url: /categories/生活/
+      weight: 22
+      parent: posts
+    - name: 思考
+      url: /categories/思考/
+      weight: 23
+      parent: posts
+    - name: 相册
+      url: /gallery/
+      weight: 30
+      identifier: gallery
+    - name: 小虾
+      url: /shrimp-diary/
+      weight: 40
+      identifier: shrimp-diary
+    - name: 周记
+      url: /shrimp-diary/weekly/
+      weight: 41
+      parent: shrimp-diary
+    - name: 日记
+      url: /shrimp-diary/daily/
+      weight: 42
+      parent: shrimp-diary
