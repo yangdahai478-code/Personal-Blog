@@ -1,6 +1,6 @@
-baseURL: https://yangge-dev.github.io/Personal-Blog/
+baseURL: https://yangdahai478-code.github.io/Personal-Blog/
 languageCode: zh-cn
-title: "羊哥的博客"
+title: "杨大海的博客"
 theme: PaperMod
 
 taxonomies:
@@ -23,7 +23,7 @@ outputs:
 
 params:
   env: production
-  author: "羊哥"
+  author: "杨大海"
   description: "记录技术、生活与思考"
 
   # Profile 模式 - 极简设计
