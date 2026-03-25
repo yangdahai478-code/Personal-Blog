@@ -30,8 +30,8 @@
                 <span>技术 · 生活 · 思考</span>
             </div>
             <div class="blog-hero__actions animate__animated animate__fadeInUp animate__fast" style="--animate-delay: 320ms;">
-                <a class="blog-hero__action blog-hero__action--primary" href="{{ "/posts/" | absURL }}">浏览文章</a>
-                <a class="blog-hero__action blog-hero__action--ghost" href="{{ "/about/" | absURL }}">关于我</a>
+                <a class="blog-hero__action blog-hero__action--primary" href="{{ "/posts/" | absLangURL }}">浏览文章</a>
+                <a class="blog-hero__action blog-hero__action--ghost" href="{{ "/about/" | absLangURL }}">关于我</a>
             </div>
             <div class="blog-hero__social animate__animated animate__fadeInUp animate__fast" style="--animate-delay: 420ms;">
                 {{- partial "social_icons.html" (dict "align" "left") -}}
