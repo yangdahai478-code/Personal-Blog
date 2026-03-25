@@ -17,7 +17,6 @@ layout: "about"
 ### 📫 联系方式
 
 - **Email**: 1917980791@qq.com
-- **GitHub**: [github.com/yangdahai478-code](https://github.com/yangdahai478-code/)
 
 ### 💭 座右铭
 
